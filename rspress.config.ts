@@ -10,6 +10,8 @@ export default defineConfig({
     light: '/rspress-light-logo.png',
     dark: '/rspress-dark-logo.png',
   },
+  themeDir: path.join(__dirname, 'theme'),
+  globalStyles: path.join(__dirname, './src/index.css'),
   themeConfig: {
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },

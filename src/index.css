@@ -1,0 +1,7 @@
+:root {
+  --rp-c-bg: #ffffff;
+}
+
+.dark {
+  --rp-c-bg: #ff0000;
+}
